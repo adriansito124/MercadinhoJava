@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="138.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.DeleteSceneController">
+  <children>
+    <MenuBar prefHeight="0.0" prefWidth="318.0" VBox.vgrow="NEVER" />
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="172.0" prefWidth="318.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button id="btLogin" fx:id="btLogin" layoutX="126.0" layoutY="94.0" mnemonicParsing="false" onMouseClicked="#confirmar" text="Confirmar" />
+            <Label layoutX="80.0" layoutY="14.0" text="DELETAR PRODUTO">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="126.0" layoutY="55.0" text="ID" />
+            <TextField id="myID" fx:id="myID" layoutX="154.0" layoutY="51.0" prefHeight="25.0" prefWidth="41.0" />
+            <Button id="goBack" fx:id="goBack" layoutX="3.0" layoutY="3.0" mnemonicParsing="false" onMouseClicked="#voltar" text="⬅" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
